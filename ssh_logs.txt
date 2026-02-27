@@ -1,0 +1,70 @@
+Feb 27 20:38:33 aslinaz systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Feb 27 20:38:33 aslinaz sshd[9709]: Server listening on 0.0.0.0 port 22.
+Feb 27 20:38:33 aslinaz sshd[9709]: Server listening on :: port 22.
+Feb 27 20:38:33 aslinaz systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Feb 27 20:41:46 aslinaz sshd[9852]: Invalid user fakeuser from 127.0.0.1 port 44510
+Feb 27 20:41:55 aslinaz sshd[9852]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 20:41:55 aslinaz sshd[9852]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 20:41:56 aslinaz sshd[9852]: Failed password for invalid user fakeuser from 127.0.0.1 port 44510 ssh2
+Feb 27 20:42:10 aslinaz sshd[9852]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 20:42:12 aslinaz sshd[9852]: Failed password for invalid user fakeuser from 127.0.0.1 port 44510 ssh2
+Feb 27 20:42:18 aslinaz sshd[9852]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 20:42:19 aslinaz sshd[9852]: Failed password for invalid user fakeuser from 127.0.0.1 port 44510 ssh2
+Feb 27 20:42:20 aslinaz sshd[9852]: Connection closed by invalid user fakeuser 127.0.0.1 port 44510 [preauth]
+Feb 27 20:42:20 aslinaz sshd[9852]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 20:44:30 siem-lab sshd[9709]: Received signal 15; terminating.
+-- Boot 27c989559a4842ed99deee0e50b6f03b --
+Feb 27 20:44:36 siem-lab systemd[1]: Starting ssh.service - OpenBSD Secure Shell server...
+Feb 27 20:44:36 siem-lab sshd[820]: Server listening on 0.0.0.0 port 22.
+Feb 27 20:44:36 siem-lab sshd[820]: Server listening on :: port 22.
+Feb 27 20:44:36 siem-lab systemd[1]: Started ssh.service - OpenBSD Secure Shell server.
+Feb 27 21:01:43 siem-lab sshd[1014]: Invalid user ahmet from 127.0.0.1 port 44970
+Feb 27 21:01:46 siem-lab sshd[1014]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:01:46 siem-lab sshd[1014]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:01:48 siem-lab sshd[1014]: Failed password for invalid user ahmet from 127.0.0.1 port 44970 ssh2
+Feb 27 21:01:50 siem-lab sshd[1014]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:01:52 siem-lab sshd[1014]: Failed password for invalid user ahmet from 127.0.0.1 port 44970 ssh2
+Feb 27 21:01:56 siem-lab sshd[1014]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:01:58 siem-lab sshd[1014]: Failed password for invalid user ahmet from 127.0.0.1 port 44970 ssh2
+Feb 27 21:01:58 siem-lab sshd[1014]: Connection closed by invalid user ahmet 127.0.0.1 port 44970 [preauth]
+Feb 27 21:01:58 siem-lab sshd[1014]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:02:12 siem-lab sshd[1017]: Invalid user fake from 127.0.0.1 port 60254
+Feb 27 21:02:15 siem-lab sshd[1017]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:02:15 siem-lab sshd[1017]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:02:16 siem-lab sshd[1017]: Failed password for invalid user fake from 127.0.0.1 port 60254 ssh2
+Feb 27 21:02:20 siem-lab sshd[1017]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:02:22 siem-lab sshd[1017]: Failed password for invalid user fake from 127.0.0.1 port 60254 ssh2
+Feb 27 21:02:25 siem-lab sshd[1017]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:02:28 siem-lab sshd[1017]: Failed password for invalid user fake from 127.0.0.1 port 60254 ssh2
+Feb 27 21:02:29 siem-lab sshd[1017]: Connection closed by invalid user fake 127.0.0.1 port 60254 [preauth]
+Feb 27 21:02:29 siem-lab sshd[1017]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:02:42 siem-lab sshd[1022]: Invalid user fakeuser from 127.0.0.1 port 57528
+Feb 27 21:02:44 siem-lab sshd[1022]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:02:44 siem-lab sshd[1022]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:02:46 siem-lab sshd[1022]: Failed password for invalid user fakeuser from 127.0.0.1 port 57528 ssh2
+Feb 27 21:02:51 siem-lab sshd[1022]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:02:53 siem-lab sshd[1022]: Failed password for invalid user fakeuser from 127.0.0.1 port 57528 ssh2
+Feb 27 21:02:56 siem-lab sshd[1022]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:02:58 siem-lab sshd[1022]: Failed password for invalid user fakeuser from 127.0.0.1 port 57528 ssh2
+Feb 27 21:02:58 siem-lab sshd[1022]: Connection closed by invalid user fakeuser 127.0.0.1 port 57528 [preauth]
+Feb 27 21:02:58 siem-lab sshd[1022]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:03:14 siem-lab sshd[1026]: Invalid user fakeee from 127.0.0.1 port 42690
+Feb 27 21:03:18 siem-lab sshd[1026]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:03:18 siem-lab sshd[1026]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:03:20 siem-lab sshd[1026]: Failed password for invalid user fakeee from 127.0.0.1 port 42690 ssh2
+Feb 27 21:03:24 siem-lab sshd[1026]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:03:26 siem-lab sshd[1026]: Failed password for invalid user fakeee from 127.0.0.1 port 42690 ssh2
+Feb 27 21:03:30 siem-lab sshd[1026]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:03:33 siem-lab sshd[1026]: Failed password for invalid user fakeee from 127.0.0.1 port 42690 ssh2
+Feb 27 21:03:33 siem-lab sshd[1026]: Connection closed by invalid user fakeee 127.0.0.1 port 42690 [preauth]
+Feb 27 21:03:33 siem-lab sshd[1026]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:05:03 siem-lab sshd[1036]: Invalid user fakeuser from 127.0.0.1 port 49368
+Feb 27 21:05:05 siem-lab sshd[1036]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:05:05 siem-lab sshd[1036]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
+Feb 27 21:05:07 siem-lab sshd[1036]: Failed password for invalid user fakeuser from 127.0.0.1 port 49368 ssh2
+Feb 27 21:05:11 siem-lab sshd[1036]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:05:12 siem-lab sshd[1036]: Failed password for invalid user fakeuser from 127.0.0.1 port 49368 ssh2
+Feb 27 21:05:16 siem-lab sshd[1036]: pam_unix(sshd:auth): check pass; user unknown
+Feb 27 21:05:17 siem-lab sshd[1036]: Failed password for invalid user fakeuser from 127.0.0.1 port 49368 ssh2
+Feb 27 21:05:18 siem-lab sshd[1036]: Connection closed by invalid user fakeuser 127.0.0.1 port 49368 [preauth]
+Feb 27 21:05:18 siem-lab sshd[1036]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1
